@@ -1,0 +1,27 @@
+modLoader="javafml"
+# The loader version doesn't matter. Modify the Forge and/or Minecraft version ranges instead.
+loaderVersion = "[0,)"
+license="MIT"
+
+[[mods]]
+modId="potioncooldown"
+version="1.0.0"
+displayName="Potion Cooldown"
+displayURL="https://modrinth.com/mod/potion-cooldown"
+logoFile="icon.png"
+authors="nouho"
+description='''Adds a configurable cooldown to Potions'''
+
+[[dependencies.potioncooldown]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.172,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.potioncooldown]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="BOTH"

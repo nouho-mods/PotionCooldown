@@ -1,0 +1,40 @@
+# Eclipse
+bin/
+*.launch
+.settings/
+.metadata/
+.classpath
+.project
+
+# IntelliJ IDEA
+out/
+*.ipr
+*.iws
+*.iml
+.idea/
+
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# VSCode
+.vscode/
+
+# Minecraft/Forge/NeoForge
+run/
+runs/
+run-data/
+moddev/
+
+# Logs and temp
+*.log
+tmp/
+
+# Misc
+repo/
+
+# OS
+.DS_Store
+Thumbs.db
