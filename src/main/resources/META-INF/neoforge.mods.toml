@@ -5,7 +5,7 @@ license="MIT"
 
 [[mods]]
 modId="potioncooldown"
-version="1.0.0"
+version="1.1.0"
 displayName="Potion Cooldown"
 displayURL="https://modrinth.com/mod/potion-cooldown"
 logoFile="icon.png"

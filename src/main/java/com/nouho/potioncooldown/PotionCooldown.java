@@ -30,7 +30,7 @@ public class PotionCooldown
         NeoForge.EVENT_BUS.register(this);
         NeoForge.EVENT_BUS.register(PotionCooldownHandler.class);
 
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        modContainer.registerConfig(ModConfig.Type.SERVER, Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

@@ -7,7 +7,7 @@ This is meant to be used with a potion stacking mod such as [Potion Stacks](http
 
 ## Features
 - Configurable global cooldown for all potion types (drinkable, splash, lingering)
-- Cooldown duration can be set in the config file
+- Cooldown duration for normal and throwable potions can be set separately in the config file, with an option to sync or separate their cooldowns
 - Cooldown is visually displayed using the vanilla cooldown bar
 - Works with modded potions
 - No new items or blocks
