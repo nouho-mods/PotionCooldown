@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.nouho.potioncooldown.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "potion-cooldown.refmap.json",
+	"mixins": [
+		"PotionItemMixin",
+		"SplashPotionItemMixin",
+		"LingeringPotionItemMixin"
+	],
+	"client": [],
+	"server": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

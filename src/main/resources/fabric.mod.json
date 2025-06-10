@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "potion-cooldown",
+	"version": "1.1.0",
+	"name": "Potion Cooldown",
+	"description": "Adds a configurable cooldown to Potions",
+	"authors": [
+		"nouho"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/potion-cooldown",
+		"sources": "https://github.com/nouho/potion-cooldown"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.nouho.potioncooldown.PotionCooldown"
+		]
+	},
+	"mixins": [
+		"potion-cooldown.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
